@@ -90,7 +90,7 @@ nav {
 }
 
 .subnav-content a:hover {
-    background-color: rgb(60, 40, 120);
+    background-color: rgb(40, 120, 57);
 }
 
 .subnav:hover .subnav-content {
@@ -124,23 +124,59 @@ nav {
     color: white;
 }
 
-.main-content {
+.card-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
-}
-
-.card {
-    width: 300px;
+  }
+  
+  .card {
+    width: 48%; /* Ajuste a largura conforme necessário */
     background-color: #fff;
     padding: 20px;
-    margin: 10px;
+    margin: 10px 0;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.card h3 {
+  }
+  
+  .card h3 {
     margin-bottom: 10px;
     color: rgb(75, 185, 121);
-}
+  }
+  
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    font-style: italic;
+  }
+  
+
+#danger_foundation_date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 2px;
+    padding-left: 2px;
+  }
+  
+  .custom-x-icon {
+    width: 1.5rem; /* Ajuste o tamanho conforme necessário */
+    height: 1.5rem; /* Ajuste o tamanho conforme necessário */
+    margin-right: 0.5rem;
+    stroke: currentColor;
+    stroke-width: 2;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem; /* Ajuste o tamanho da fonte conforme necessário */
+    color: #721c24; /* ou outra cor vermelha desejada */
+  }
+  
