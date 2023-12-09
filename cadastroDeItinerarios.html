@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -14,7 +14,7 @@
     <header class="navigation-header">
         <nav>
             <div class="logo-container">
-                <img src="./img/urbes-logo.png" alt="">
+                <img src="./img/urbes-logo.png" alt="Logo da Urbes">
             </div>
             <div class="navigation-items" id="navigation-items">
                 <a href="/">Home</a>
@@ -33,7 +33,7 @@
     </header>
     <main class="main-content">
         <form>
-            <div class="form-group">
+            <fieldset class="form-group">
                 <label for="input-date-init">Data Itinerário:</label>
                 <div style="display: none; flex-direction: row; color: #b91c1c; padding-bottom: 0.5rem; padding-left: 0.5rem;" id="danger_foundation_date">
                     <div>
@@ -45,19 +45,19 @@
                     <span style="font-size: 0.875rem;">Data Inválida</span>
                 </div>                
                 <input type="text" class="form-control" id="input-date-init" onblur="validateDate(this)" onkeyup="clearValue()">
-            </div>
-            <div class="form-group">
+            </fieldset>
+            <fieldset class="form-group">
                 <label for="input-regiao">Escolha a linha desejada:</label>
                 <input type="text" class="form-control" id="input-regiao" placeholder="">
-            </div>
-            <div class="form-group">
+            </fieldset>
+            <fieldset class="form-group">
                 <label for="exampleInputPassword1">Escolha a região desejada:</label>
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
-            </div>
-            <div class="form-check">
+            </fieldset>
+            <fieldset class="form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Aceite os termos de uso</label>
-            </div>
+            </fieldset>
             <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
     </main>

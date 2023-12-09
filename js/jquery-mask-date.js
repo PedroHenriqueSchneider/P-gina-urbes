@@ -3,8 +3,6 @@ $('#input-date-init').mask("00/00/0000", {
 });
 
 function validateDateFuncLogic(date) {
-
-    console.log(date.value);
     if(date.value == undefined) {
         return true;
     }
