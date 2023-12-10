@@ -1,86 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barra de navegação</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Barra de navegação</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+    </head>
 
-<body>
-    <header class="navigation-header">
-        <nav>
-            <div class="logo-container">
-                <img src="./img/urbes-logo.png" alt="">
-            </div>
-            <div class="navigation-items" id="navigation-items">
-                <a href="/">Home</a>
-                <div class="subnav">
-                    <button class="subnavbtn">Rotas<i class="fa fa-caret-down"></i></button>
-                    <div class="subnav-content">
-                        <a href="#itinerários">Itinerários</a>
-                        <a href="./cadastroDeItinerarios.html">Cadastro de Itinerários</a>
+    <body>
+        <header class="navigation-header">
+            <nav>
+                <div class="logo-container">
+                    <img src="./img/urbes-logo.png" alt>
+                </div>
+                <div class="navigation-items" id="navigation-items">
+                    <a href="/Pagina-urbes/index.html">Home</a>
+                    <div class="subnav">
+                        <button class="subnavbtn">Rotas<i
+                                class="fa fa-caret-down"></i></button>
+                        <div class="subnav-content">
+                            <a href="#itinerários">Itinerários</a>
+                            <a href="./cadastroDeItinerarios.html">Cadastro de
+                                Itinerários</a>
+                        </div>
+                    </div>
+                    <a href>Mapa do site</a>
+                    <a href>Utilidades</a>
+                    <a href>Notícias</a>
+                </div>
+            </nav>
+        </header>
+        <main class="main-content">
+            <div>
+                <h1><i>Linhas mais utilizadas</i></h1>
+                <div class="card-container">
+                    <div class="card">
+                        <h3>UFSCAR 80</h3>
+                        <p>Do Terminal São Paulo para a universidade.</p>
+                        <p>Plataforma: P.1 - Ponto: B</p>
+                    </div>
+                    <div class="card">
+                        <h3>Ipanema das Pedras 67</h3>
+                        <p>Do Terminal Santo António para Ipanema.</p>
+                        <p>Plataforma: P1 - Ponto: C</p>
+                    </div>
+                    <div class="card">
+                        <h3>Havana 33</h3>
+                        <p>Do Terminal Santo António para Havana.</p>
+                        <p>Plataforma: P.1 - Ponto: D</p>
+                    </div>
+                    <div class="card">
+                        <h3>Jardim Europa 18</h3>
+                        <p>Do Terminal São Paulo para o Jardim Europa.</p>
+                        <p>Plataforma: P.1 - Ponto: D</p>
+                    </div>
+                    <div class="card">
+                        <h3>Campolim 65</h3>
+                        <p>Do Terminal São Paulo para o Jardim Europa.</p>
+                        <p>Plataforma: P5 - Ponto: Q</p>
+                    </div>
+                    <div class="card">
+                        <h3>Green Valley 51</h3>
+                        <p>Do Terminal São Paulo para o Jardim Europa.</p>
+                        <p>Plataforma: P.2 - Ponto: F</p>
+                    </div>
+                    <div class="card">
+                        <h3>Guadalajara 12</h3>
+                        <p>Do Terminal São Paulo para o Jardim Europa.</p>
+                        <p>Plataforma: P1 - Ponto: D</p>
+                    </div>
+                    <div class="card">
+                        <h3>Tatiana 441</h3>
+                        <p>Do Terminal São Paulo para o Jardim Europa.</p>
+                        <p>Plataforma: P1 Ponto: C</p>
                     </div>
                 </div>
-                <a href="">Mapa do site</a>
-                <a href="">Utilidades</a>
-                <a href="">Notícias</a>
             </div>
-        </nav>
-    </header>
-    <main class="main-content">
-        <div>
-            <h1><i>Linhas mais utilizadas</i></h1>
-            <div class="card-container">
-                <div class="card">
-                    <h3>UFScar 80</h3>
-                    <p>Do Terminal São Paulo para a universidade.</p>
-                </div>
-                <div class="card">
-                    <h3>Ipanema 95</h3>
-                    <p>Do Terminal Santo António para Ipanema.</p>
-                </div>
-                <div class="card">
-                    <h3>Havana 33</h3>
-                    <p>Do Terminal Santo António para Havana.</p>
-                </div>
-                <div class="card">
-                    <h3>Jardim Europa 18</h3>
-                    <p>Do Terminal São Paulo para o Jardim Europa.</p>
-                </div>
-            </div>
-        </div>
-    </main>
 
-    <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="2000">
-        <div class="carousel-inner text-center">
-            <div class="carousel-item active">
-                <img src="./img/onibusSorocaba.webp" class="d-block mx-auto" style="max-width: 500px;" alt="...">
+            <div id="carouselExample" class="carousel slide"
+                data-ride="carousel"
+                data-interval="2000">
+                <div class="carousel-inner text-center">
+                    <div class="carousel-item active">
+                        <img src="./img/onibusSorocaba.webp"
+                            class="d-block mx-auto"
+                            style="max-width: 500px;" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/onibus1.jpg" class="d-block mx-auto"
+                            style="max-width: 500px;" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/onibus2.jpg" class="d-block mx-auto"
+                            style="max-width: 500px;" alt="...">
+                    </div>
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="./img/onibus1.jpg" class="d-block mx-auto" style="max-width: 500px;" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./img/onibus2.jpg" class="d-block mx-auto" style="max-width: 500px;" alt="...">
-            </div>
-        </div>
-    </div>
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"
-        crossorigin="anonymous"></script>
-    <script src="./js/jquery-mask-date.js"></script>
-</body>
+        </main>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"
+            crossorigin="anonymous"></script>
+        <script src="./js/jquery-mask-date.js"></script>
+    </body>
 
 </html>
