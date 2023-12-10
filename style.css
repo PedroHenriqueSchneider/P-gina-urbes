@@ -8,9 +8,9 @@ form {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 600px;
-    /* Remover a barra de rolagem apenas para o formulário */
 }
-*, body {
+
+body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -23,6 +23,12 @@ form {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.flex-row-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }
 
 nav {
@@ -44,7 +50,7 @@ nav {
     gap: 40px;
 }
 
-.navigation-items>a {
+.navigation-items a {
     color: ghostwhite;
     text-decoration: none;
     font-weight: 500;
@@ -52,9 +58,10 @@ nav {
     transition: .4s ease-in-out;
 }
 
-.navigation-items>a:hover {
+.navigation-items a:hover {
     color: white;
 }
+
 
 
 @media screen and (max-width:768px) {
@@ -162,7 +169,7 @@ nav {
 .main-content {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,5 +207,5 @@ h1 {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0; /* Cor de fundo da página */
+    background-color: #f0f0f0;
 }

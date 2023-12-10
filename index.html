@@ -15,24 +15,33 @@
     <body>
         <header class="navigation-header">
             <nav>
-                
                 <div class="logo-container">
-                    <img src="./img/urbes-logo.png" alt>
+                    <img src="./img/urbes-logo.png" alt="Logo da Urbes">
                 </div>
-                <div class="navigation-items" id="navigation-items">
-                    <a href="/">Home</a>
-                    <div class="subnav">
-                        <button class="subnavbtn">Rotas<i
-                                class="fa fa-caret-down"></i></button>
-                        <div class="subnav-content">
-                            <a href="#itinerários">Itinerários</a>
-                            <a href="./cadastroDeItinerarios.html">Cadastro de
-                                Itinerários</a>
-                        </div>
-                    </div>
-                    <a href>Mapa do site</a>
-                    <a href>Utilidades</a>
-                    <a href>Notícias</a>
+                <div id="navigation-items">
+                    <ul class="navigation-items">
+                        <li><a href="/">Home</a></li>
+                        <li>
+                            <div class="subnav">
+                                <button class="subnavbtn">Rotas<i class="fa fa-caret-down"></i></button>
+                                <div class="subnav-content">
+                                    <a href="#itinerários">Itinerários</a>
+                                    <a href="./cadastroDeItinerarios.html">Cadastro
+                                        de
+                                        Itinerários</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#mapa">Mapa do site</a>
+                        </li>
+                        <li>
+                            <a href="#utilidades">Utilidades</a>
+                        </li>
+                        <li>
+                            <a href="#noticias">Notícias</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </header>
@@ -104,9 +113,7 @@
             </div>
         </main>
 
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
+        <script src="./js/jquery-3.6.2.min.js"></script>
         <script
             src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
             integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
