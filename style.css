@@ -1,3 +1,15 @@
+form fieldset {
+    margin-bottom: 15px;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    /* Remover a barra de rolagem apenas para o formulário */
+}
 *, body {
     padding: 0;
     margin: 0;
@@ -180,4 +192,13 @@ h1 {
 .text-sm {
     font-size: 0.875rem;
     color: #721c24;
+}
+
+.main-content-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Cor de fundo da página */
 }
