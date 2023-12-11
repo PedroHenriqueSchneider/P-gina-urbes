@@ -50,19 +50,20 @@ nav {
     gap: 40px;
 }
 
+li {
+    list-style-type: none;
+  }
+
+.nav-item-t{
+    color: ghostwhite;  
+}
+
 .navigation-items a {
-    color: ghostwhite;
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     transition: .4s ease-in-out;
 }
-
-.navigation-items a:hover {
-    color: white;
-}
-
-
 
 @media screen and (max-width:768px) {
     .navigation-items {
@@ -78,43 +79,6 @@ nav {
         padding-top: 60px;
         gap: 10vh;
     }
-}
-
-.subnav {
-    position: relative;
-    display: inline-block;
-}
-
-.subnavbtn {
-    background-color: rgb(75, 185, 121);
-    color: white;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-.subnav-content {
-    display: none;
-    position: absolute;
-    background-color: rgb(51, 153, 56);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.subnav-content a {
-    color: white;
-    padding: 12px 16px;
-    display: block;
-    text-decoration: none;
-}
-
-.subnav-content a:hover {
-    background-color: rgb(40, 120, 57);
-    color: rgb(255, 255, 255);
-}
-
-.subnav:hover .subnav-content {
-    display: block;
 }
 
 .menu-container {
@@ -133,15 +97,10 @@ nav {
 }
 
 .menu a {
-    color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     transition: .4s ease-in-out;
-}
-
-.menu a:hover {
-    color: white;
 }
 
 .card-container {
@@ -177,23 +136,6 @@ nav {
 
 h1 {
     font-style: italic;
-}
-
-
-#danger_foundation_date {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-bottom: 2px;
-    padding-left: 2px;
-}
-
-.custom-x-icon {
-    width: 1.5rem;
-    height: 1.5rem;
-    margin-right: 0.5rem;
-    stroke: currentColor;
-    stroke-width: 2;
 }
 
 .text-sm {
