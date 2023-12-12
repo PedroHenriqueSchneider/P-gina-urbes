@@ -11,7 +11,6 @@
 			rel="stylesheet"
 			integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
 			crossorigin="anonymous">
-		<script src="jquery-3.6.2.min.js"></script>
 	</head>
 
 	<body>
@@ -31,10 +30,10 @@
 							Rotas
 						</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#itinerários">Itinerários</a></li>
+							<li><a class="dropdown-item" href="#itinerários">Itinerarios</a></li>
 							<li><a class="dropdown-item" href="./cadastroDeItinerarios.html">Cadastro
 									de
-									Itinerários</a></li>
+									Itinerarios</a></li>
 						</ul>
 					</li>
 					<li>
@@ -44,7 +43,7 @@
 						<a class="nav-item-t" href="#utilidades">Utilidades</a>
 					</li>
 					<li>
-						<a class="nav-item-t" href="#noticias">Notícias</a>
+						<a class="nav-item-t" href="#noticias">Noticias</a>
 					</li>
 				</ul>
 			</nav>
@@ -55,49 +54,49 @@
 				<div class="card-container">
 					<div class="card">
 						<h3>UFSCAR 80</h3>
-						<p>Do Terminal São Paulo para a universidade.</p>
+						<p>Do Terminal Sao Paulo para a universidade.</p>
 						<p>Plataforma: P.1 - Ponto: B</p>
 					</div>
 					<div class="card">
 						<h3>Ipanema das Pedras 67</h3>
-						<p>Do Terminal Santo António para Ipanema.</p>
+						<p>Do Terminal Santo Antonio para Ipanema.</p>
 						<p>Plataforma: P1 - Ponto: C</p>
 					</div>
 					<div class="card">
 						<h3>Havana 33</h3>
-						<p>Do Terminal Santo António para Havana.</p>
+						<p>Do Terminal Santo Antonio para Havana.</p>
 						<p>Plataforma: P.1 - Ponto: D</p>
 					</div>
 					<div class="card">
 						<h3>Jardim Europa 18</h3>
-						<p>Do Terminal São Paulo para o Jardim Europa.</p>
+						<p>Do Terminal Sao Paulo para o Jardim Europa.</p>
 						<p>Plataforma: P.1 - Ponto: D</p>
 					</div>
 					<div class="card">
 						<h3>Campolim 65</h3>
-						<p>Do Terminal São Paulo para o Jardim Europa.</p>
+						<p>Do Terminal Sao Paulo para o Jardim Europa.</p>
 						<p>Plataforma: P5 - Ponto: Q</p>
 					</div>
 					<div class="card">
 						<h3>Green Valley 51</h3>
-						<p>Do Terminal São Paulo para o Jardim Europa.</p>
+						<p>Do Terminal Sao Paulo para o Jardim Europa.</p>
 						<p>Plataforma: P.2 - Ponto: F</p>
 					</div>
 					<div class="card">
 						<h3>Guadalajara 12</h3>
-						<p>Do Terminal São Paulo para o Jardim Europa.</p>
+						<p>Do Terminal Sao Paulo para o Jardim Europa.</p>
 						<p>Plataforma: P1 - Ponto: D</p>
 					</div>
 					<div class="card">
 						<h3>Tatiana 441</h3>
-						<p>Do Terminal São Paulo para o Jardim Europa.</p>
+						<p>Do Terminal Sao Paulo para o Jardim Europa.</p>
 						<p>Plataforma: P1 Ponto: C</p>
 					</div>
 				</div>
 			</div>
 
 			<div id="carouselExample" class="carousel slide" data-ride="carousel"
-				data-interval="1000">
+				data-interval="2000">
 				<div class="carousel-inner text-center">
 					<div class="carousel-item active">
 						<img src="./img/onibusSorocaba.webp" class="d-block mx-auto"
@@ -114,6 +113,7 @@
 				</div>
 			</div>
 		</main>
+		<script src="./jquery-3.6.2.min.js"></script>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"

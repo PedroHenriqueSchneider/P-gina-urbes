@@ -12,9 +12,10 @@
   <version>1.0-SNAPSHOT</version>
   <name>mini_projeto Web App</name>
 
-  <properties>
+<properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+</properties>
 
   <dependencies>
     <dependency>
